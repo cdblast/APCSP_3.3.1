@@ -4,4 +4,5 @@
 topic: carbon emissions
 has to include: csv, use pandas + matplotlib to visualize w/ graph
 
-CSV source: https://catalog.data.gov/dataset/supply-chain-greenhouse-gas-emission-factors-v1-3-by-naics-6
+CSV source: https://catalog.data.gov/dataset/death-rates-for-suicide-by-sex-race-hispanic-origin-and-age-united-states-020c1
+Death_rates_for_suicide__by_sex__race__Hispanic_origin__and_age__United_States.csv
