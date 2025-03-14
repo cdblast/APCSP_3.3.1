@@ -1,0 +1,88 @@
+
+body {
+  background-color: #f0f0ef;
+  background-attachment:fixed;
+  background-position:center;
+  margin: 10%;
+  max-width: 70%;
+  }
+
+  @font-face{
+    font-family: tiki-island;
+    src: url(assets/aj/Tiki_Island.woff);
+  }
+
+  .lil-page{
+    background-image: url('assets/rainbowstarbg.gif');
+    border-style:double;
+    border-width: 6px;
+    border-radius: 10px;
+    border-color:#ace5ff;
+    position: fixed;
+    float: center;
+    top:5%;
+    padding: 10px;
+    margin-left:20%;
+    margin-right:10%;
+    scrollbar-width: auto;
+    scrollbar-color: rgb(38, 38, 38);
+    scroll-margin: 2px;
+    height:80%;
+    overflow-y:scroll;
+    z-index: 0;
+  }
+  .lil-page a{
+    color:green;
+    z-index: 10;
+  }
+
+  .insidebar{
+    background-image:url('assets/rainbowstarbg.gif');
+    float:left; 
+    padding: 5px;
+    width:18%;
+    height:80%;
+    top:5%;
+
+    border-width:6px;
+    border-style:double;
+    border-color: rgb(239, 137, 255);
+    border-radius:5px;
+
+    border-top-color: #ace5ff;
+
+    overflow-y:scroll;
+    position: fixed;
+    z-index: 10;
+  }
+  .insidebar .coolbutton{
+    font-family: tiki-island;
+    height: 40px;
+    width:full;
+    background-color: #ddf4ff;
+    border-style: double;
+    border-radius: 5px;
+    border-width:6px;
+    border-color: rgb(47, 71, 255);
+  }
+  .insidebar .coolbutton .a:hover{
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   
+    background-clip: text;
+    color: transparent;
+    
+  }
+  footer {
+    color: grey;
+    text-align: center;
+    text-size-adjust: 75%;
+}
+
+.rainbow-text a:hover {
+  background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
+  text-align: center;
+  background-size: 800% 800%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  animation: rainbow 8s ease infinite;
+}

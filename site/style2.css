@@ -1,0 +1,20 @@
+:root{
+  --primarycolor:rgb(126, 150, 255);
+  --backgroundcolor:rgb(182, 195, 255);
+  --primarydarker:rgb(32, 54, 156);
+  --borderdark:rgb(12, 32, 121);
+
+  --textcolor:rgb(116, 113, 255);
+  --textsecondcolor:rgb(8, 7, 56);
+}
+
+body{
+  color:var(--textcolor);
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.container main{
+  color: var(--textcolor);
+}
